@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header nav, h1{
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(209, 245, 7);
+
+}
+
+h3{
+  font-family: 'Dhurjati', sans-serif;
+  font-size: 30px;
+}
+
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body{
+  background-color: rgb(209, 223, 235);
+ 
+}
+
+body > header, footer{
+  background-color: black;
+  color: rgb(241, 244, 247);
+  padding: 20px;
+}
+
+header li a, h4 {
+  color: rgb(209, 245, 7);
+  margin-left: 20px;
+
+}
+
+header li {
+  display: inline;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.articles article img{
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 23px;
+}
+
+section{
+  margin-top: 25px;
+}
+
+section article {
+  width: 30%;
+}
+h2{
+  margin-bottom: 10px;
+}
+
+footer .container{ 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+footer{
+  margin-top: 30px;
+  color: rgb(209, 245, 7);
+  align-items: center;
+}
+
+ footer img{
+  width: 30px;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+  
+}
+
+button{
+  height: 40px;
+  cursor: pointer;
+  color: rgb(209, 245, 7);
+  background-color: black;
+  border-radius: 10px;
+  width: 280px;
+  display: inline-block;
+  margin-top: 15px;
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(119, 116, 116);
+}
+
+input{
+  margin: 4px;
+  border-radius: 50px;
+  text-align: center;
+  
+}
+.forms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 280px;
+}
+footer button{
+  color: rgb(8, 8, 8);
+  background-color: aliceblue;
+  width: 60px;
+  height: 30px;
+  
+}
+
+
+
+
+
