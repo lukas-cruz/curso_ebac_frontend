@@ -1,0 +1,33 @@
+section {
+  background-color: darkgray;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#mensagem {
+  margin-top: 10px;
+}
+
+.mensagem-valida {
+  color: rgb(2, 2, 2);
+  background-color: rgb(111, 236, 117);
+  padding: 8px;
+}
+
+.mensagem-invalida {
+  color: red;
+  background-color: rgb(56, 54, 54);
+  padding: 8px;
+}
