@@ -1,0 +1,1 @@
+const imagens=document.querySelector(".imagens"),botao=document.querySelector(".botao");function mudarDeCor(){imagens.style.background="red",imagens.style.color="black"}botao.addEventListener("click",mudarDeCor);
