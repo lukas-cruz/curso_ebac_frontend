@@ -1,0 +1,50 @@
+// Variáveis para cores e espaçamentos
+$highlight-color: gold;
+$highlight-bg-color: #ffff42;
+$gray-color: gray;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.produtos {
+  max-width: 640px;
+  width: 100%;
+  margin: 56px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1%;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 100%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &-imagem {
+      width: 100%;
+    }
+
+    &-nome {
+      font-size: 1.2em;
+      margin: 8px 0;
+    }
+
+    &-descricao {
+      color: $gray-color;
+    }
+
+    &--destaque {
+      border: 2px solid $highlight-color;
+      padding: 8px;
+      background-color: $highlight-bg-color;
+    }
+  }
+}
