@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velozes e Furiosos</title>
+    <link rel="stylesheet" href="build/styles/main.css">
+</head>
+<body>
+    <div class="hero">
+        <img src="./src/imagens/hero_logo.jpg" alt="Velozes e Furiosos">
+        <div class="hero-text">
+            <img src="./src/imagens/AAAABS4lAMY2vd-Ox1xSmquAOjkSvOKZTnqanaJgT6OwFdUkfJMOOTmfnjNEGkI1oL8G54IwsjYpgFQBny6c6qZCly932Ufa7-s-6hq_BE5VAfRm.png" alt="">
+        </div>
+    </div>
+
+    <section class="movies-section">
+        <h2>Os 10 Clássicos de Velozes e Furiosos</h2>
+        <ul class="movie-list">
+            <li onclick="openModal(0)">Velozes e Furiosos (2001)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=2TAOizOnNPo', '_blank');">Trailer</button></li>
+            <li onclick="openModal(1)">+ Velozes + Furiosos (2003)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=F_VIM03DXWI', '_blank');">Trailer</button></li>
+            <li onclick="openModal(2)">Velozes e Furiosos: Desafio em Tóquio (2006)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=p8HQ2JLlc4E', '_blank');">Trailer</button></li>
+            <li onclick="openModal(3)">Velozes e Furiosos 4 (2009)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=bcYwZX6ilBM', '_blank');">Trailer</button></li>
+            <li onclick="openModal(4)">Velozes e Furiosos 5: Operação Rio (2011)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=kPkr9MdPvnc', '_blank');">Trailer</button></li>
+            <li onclick="openModal(5)">Velozes e Furiosos 6 (2013)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=dKi5XoeTN0k', '_blank');">Trailer</button></li>
+            <li onclick="openModal(6)">Velozes e Furiosos 7 (2015)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=Skpu5HaVkOc', '_blank');">Trailer</button></li>
+            <li onclick="openModal(7)">Velozes e Furiosos 8 (2017)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=uisBaTkQAEs', '_blank');">Trailer</button></li>
+            <li onclick="openModal(8)">Velozes e Furiosos: Hobbs & Shaw (2019)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=HZ7PAyCDwEg', '_blank');">Trailer</button></li>
+            <li onclick="openModal(9)">Velozes e Furiosos 9 (2021)<button class="trailer-button" onclick="event.stopPropagation(); window.open('https://www.youtube.com/watch?v=fEE4RO-_jug', '_blank');">Trailer</button></li>
+        </ul>
+    </section>
+
+    <section class="characters-section">
+        <h2>Principais Personagens</h2>
+        <div class="character-card">
+            <img src="./src/imagens/images.jpg" alt="Dominic Toretto">
+            <div class="character-details">
+                <h3>Dominic Toretto</h3>
+                <p><strong>Ator:</strong> Vin Diesel</p>
+                <p><strong>Descrição:</strong> Um ex-criminoso que se torna um líder e protetor de sua família. Dom é conhecido por sua habilidade de conduzir carros e sua lealdade inabalável.</p>
+            </div>
+        </div>
+        <div class="character-card">
+            <img src="./src/imagens/paul-walker.jpg" alt="Brian O'Conner">
+            <div class="character-details">
+                <h3>Brian O'Conner</h3>
+                <p><strong>Ator:</strong> Paul Walker</p>
+                <p><strong>Descrição:</strong> Um ex-agente do FBI que se junta à família Toretto. Brian é um corredor de rua habilidoso e um grande amigo de Dominic.</p>
+            </div>
+        </div>
+        <div class="character-card">
+            <img src="./src/imagens/letty-ortiz.jpg" alt="Letty Ortiz">
+            <div class="character-details">
+                <h3>Letty Ortiz</h3>
+                <p><strong>Ator:</strong> Michelle Rodriguez</p>
+                <p><strong>Descrição:</strong> A esposa de Dominic Toretto e uma corredora habilidosa. Letty é conhecida por sua coragem e lealdade.</p>
+            </div>
+        </div>
+        <div class="character-card">
+            <img src="./src/imagens/roman-pearce.webp" alt="Roman Pearce">
+            <div class="character-details">
+                <h3>Roman Pearce</h3>
+                <p><strong>Ator:</strong> Tyrese Gibson</p>
+                <p><strong>Descrição:</strong> Um amigo de infância de Brian e um corredor de rua. Roman é conhecido por seu humor e habilidades de condução.</p>
+            </div>
+        </div>
+        <div class="character-card">
+            <img src="./src/imagens/luke-hobbs.jpg" alt="Luke Hobbs">
+            <div class="character-details">
+                <h3>Luke Hobbs</h3>
+                <p><strong>Ator:</strong> Dwayne Johnson</p>
+                <p><strong>Descrição:</strong> Um agente da DSS que inicialmente caça Dominic e sua equipe, mas eventualmente se junta a eles. Hobbs é conhecido por sua força e determinação.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="conclusion-section">
+        <h2>Considerações Finais</h2>
+        <p>
+            Este projeto tem como objetivo homenagear a icônica franquia Velozes e Furiosos, que redefiniu o gênero de ação e automobilismo no cinema. Desde 2001, a série tem encantado fãs ao redor do mundo com suas sequências de alta velocidade, personagens cativantes e uma trama que destaca a importância da família e da lealdade. Esperamos que você tenha apreciado esta viagem pela história dos filmes e pelos personagens que tornam esta franquia tão especial.
+        </p>
+    </section>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="src/script/script.js"></script>
+</body>
+</html>
